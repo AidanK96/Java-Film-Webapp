@@ -11,9 +11,9 @@ public class FilmDAO {
     Statement stmt = null;
 	String user = "root";
 	String db = "films";
-    String password = "root";
+    String password = "###";
     //connects to cloud database at the ip shown, connects to the specific db called films
-    String url = "jdbc:mysql://34.105.129.226:3306/"+db;
+    String url = "###"+db;
   //  java.sql.Driver d=new com.mysql.jdbc.Driver();
 
 	
